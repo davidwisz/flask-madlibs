@@ -1,6 +1,7 @@
 <form action="/story" method="POST">
     {% for question in questions%}
-        <label for="{{question}}">{{question}}</label> <input type="text" name="{{question}}"><br/>
+        <label for="{{question}}">{{question}}</label> 
+        <input type="text" name="{{question}}"><br/>
     {% endfor %}
     <input type="submit" value="Submit"/>
 </form>
